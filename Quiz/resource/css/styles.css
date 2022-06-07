@@ -1,0 +1,111 @@
+﻿body {
+    height: 100%;
+    font-family: Lato, sans-serif;
+}
+.registration-body{
+    background:url(../img/bodyBackground.jpg) repeat-x;
+    background-position:center;
+    background-size:cover;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover, .dropdown-menu .dropdown-item:hover {
+    color: #f7941e !important;
+}
+
+.btn:focus,.form-control:focus{
+    outline:none;
+    box-shadow:none;
+}
+.sgridHeaderStyle {
+    background: #12789D;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-appearance: none;
+}
+
+.sgridSelectedRowStyle {
+    background: #e5f1ff;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+}
+
+.sgridRowStyle {
+    background: white;
+    text-align: left;
+    vertical-align: top;
+    font-size: 10pt;
+    font-family: 'Arial';
+    color: black;
+}
+
+.table {
+    border-color: #12789D !important;
+}
+.bg-1010-orange {
+    background-color: #faa635 !important;
+}
+.bg-1010-blue {
+    background-color: #12789D !important;
+}
+.text-1010-orange{
+    color:#faa635 !important;
+}
+.text-1010-blue{
+    color:#12789D !important;
+}
+#countdown h1 {
+  font-weight: normal;
+}
+#countdown li {
+  display: inline-block;
+  font-size: 0.9rem;
+  list-style-type: none;
+  padding: 0.6em;
+  text-transform: uppercase;
+}
+
+#countdown li span {
+  display: block;
+  font-size: 2rem;
+}
+@media(max-width:992px){
+    .div-center{
+        width:100% !important;
+    }
+    .div-title{
+        font-size:20px !important;
+    }
+}
+@media(max-width:768px){
+    .div-center{
+        width:100% !important;
+    }
+    .div-title{
+        font-size:20px !important;
+    }
+    .img-legasis,.img-1010{
+        width:140px !important;
+    }
+    .img-1010{
+        /*width:88px !important;*/
+        height:140px !important;
+    }
+}
+@media(max-width:970px){
+    .div-center{
+        width:100% !important;
+    }
+}
+@media(max-width:576px){
+    .img-legasis,.img-1010{
+        /*width:140px !important;*/
+        display:none !important;
+    }
+}

@@ -1,0 +1,137 @@
+.CW_footer_wrapper {
+            background: #01799c;
+            bottom: 0;
+            position: fixed;
+            width: 100%;
+            z-index: 50;
+            margin-top: 50px;
+        }
+        .CW_footer_bottom {
+            padding: 10px 0;
+        }
+        .CW_contact_section {
+            margin: 0;
+        }
+
+        .CW_footer_wrapper .detail h4 {
+            color: #fff;
+            margin: 0;
+            font-size: 14px;
+        }
+
+        .CW_footer_wrapper .detail h4 a {
+            color: #fca546;
+        }
+
+.modal-footer .CW_footer_wrapper{position: inherit; margin-top: 0;}
+        .row {
+            margin: 0;
+        }
+        
+        .divHeight {
+            min-height: 700px;
+        }
+        .homeAbout .homeAboutDiv{
+            background:#d6e6ee;
+            padding:10px;
+            min-height:240px;
+            box-shadow: 5px 5px 10px #ccc;
+        }
+        .homeAbout .homeAboutDiv .fa-file-text{color:#01799c;}
+        .homeAbout .homeAboutDiv .fa-check-square-o{color:#fca546;}
+        .homeAbout .homeAboutDiv p{color:#000;text-align: justify;line-height: 1.4;margin-bottom: 0;}
+        .homeAbout .homeAboutDiv1{
+            background:#d6e6ee;
+            padding:33px;
+            box-shadow: 5px 5px 10px #ccc;
+        }
+        .homeAbout .homeAboutDiv1 a{color: #fca546;}
+        .top_left_cont {padding: 0px 0;}
+        .top_left_cont h2 {font-size: 26px;line-height: 50px;}
+        .m-b-20{margin-bottom:20px;}
+        .p-0{padding:0;}
+        
+        
+        
+    /* media query for responsive 1920*1200 */
+    
+    @media (min-width: 1920px) {
+  #form1 {
+    min-height:1200px;
+  }
+}
+
+
+
+
+/* Back to work css */
+.menuRight{padding: 23px;}
+.menuRight a{font-size:17px;font-weight: 600;}
+select{    height: 26px;}
+input, select, textarea {
+    border: 1px solid #333;
+}
+.registrationRadio{
+    /*background:#d6e6ee;*/
+    background:#faaa3e4d;
+            padding:15px 9px;
+            min-height:120px;
+            box-shadow: 5px 5px 10px #ccc;
+            text-align: center;
+                margin-bottom: 15px;
+    }
+    .registrationRadio input[type=radio]{display:inline;margin-right:10px;cursor:pointer}
+    .registrationRadio label{display:inline;}
+    .registrationRadio p{display:inline;}
+    .registrationRadio .price{
+        font-size:20px;
+        font-weight:600;
+        color: #f75305;
+        background: aliceblue;
+        border-radius: 50%;
+        padding: 5px 10px;
+        margin-top: 5px;
+        display: inline-block;
+        }
+    .registrationRadio a{font-size:16px;font-weight: 600;}
+    .registrationRadio a:hover{color: #faa635;}
+    a{cursor:pointer;}
+    .seperator {
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #fca720;
+    margin-top: 10px;
+}
+.OfferingPricing{background: #f9f9f9;}
+.OfferingPricing h3{color: #12789d;
+   /* padding: 10px;
+    margin: 15px 0;*/
+    font-family: 'Open Sans', sans-serif;}
+  .OfferingPricing .offerPrice{width:20%;}
+  .eventEnqu .enquiry_textbox, .queryForm .enquiry_textbox{width:100%}
+  .asteriskM{float:right;}
+  /* media query for responsive Max-width:767 */
+    
+    @media (max-width: 767px){
+    .menuLeft {
+    
+  }
+  .menuCenter {
+    margin-top:30px;
+  }
+  .menuRight {
+    position:absolute;
+    right:0;
+  }
+  .registrationRadio{min-height:125px;}
+  .OfferingPricing .offerPrice {
+    width: 100%;
+    }
+    .enquiry_text_head {
+    float: none;
+    text-align: right;
+    }
+    .asteriskM{float:none;}
+}
+
